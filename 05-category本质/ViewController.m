@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
+#import "Person+Eat.h"
+#import "Person+Test.h"
 
 @interface ViewController ()
 
@@ -17,7 +20,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    Person *person = [[Person alloc] init];
+    [person run];
+    [person eat];
+    [person test];
 }
-
 
 @end

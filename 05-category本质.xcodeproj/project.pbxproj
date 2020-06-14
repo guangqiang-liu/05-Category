@@ -16,6 +16,9 @@
 		9C1EF20423E9582500B528FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EF20323E9582500B528FD /* main.m */; };
 		9C1EF20E23E9582500B528FD /* _5_category__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EF20D23E9582500B528FD /* _5_category__Tests.m */; };
 		9C1EF21923E9582500B528FD /* _5_category__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EF21823E9582500B528FD /* _5_category__UITests.m */; };
+		9C1EF22823E95C1700B528FD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EF22723E95C1700B528FD /* Person.m */; };
+		9C1EF22B23E95C2C00B528FD /* Person+Eat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EF22A23E95C2C00B528FD /* Person+Eat.m */; };
+		9C1EF22E23E95C3A00B528FD /* Person+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EF22D23E95C3A00B528FD /* Person+Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,13 @@
 		9C1EF21423E9582500B528FD /* 05-category本质UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-category本质UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1EF21823E9582500B528FD /* _5_category__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_category__UITests.m; sourceTree = "<group>"; };
 		9C1EF21A23E9582500B528FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C1EF22623E95C1700B528FD /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9C1EF22723E95C1700B528FD /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		9C1EF22923E95C2C00B528FD /* Person+Eat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Eat.h"; sourceTree = "<group>"; };
+		9C1EF22A23E95C2C00B528FD /* Person+Eat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Eat.m"; sourceTree = "<group>"; };
+		9C1EF22C23E95C3A00B528FD /* Person+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Test.h"; sourceTree = "<group>"; };
+		9C1EF22D23E95C3A00B528FD /* Person+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Test.m"; sourceTree = "<group>"; };
+		9C1EF22F23E95D6300B528FD /* Person+Eat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Person+Eat.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +120,13 @@
 				9C1EF1F523E9582400B528FD /* SceneDelegate.m */,
 				9C1EF1F723E9582400B528FD /* ViewController.h */,
 				9C1EF1F823E9582400B528FD /* ViewController.m */,
+				9C1EF22623E95C1700B528FD /* Person.h */,
+				9C1EF22723E95C1700B528FD /* Person.m */,
+				9C1EF22923E95C2C00B528FD /* Person+Eat.h */,
+				9C1EF22A23E95C2C00B528FD /* Person+Eat.m */,
+				9C1EF22F23E95D6300B528FD /* Person+Eat.cpp */,
+				9C1EF22C23E95C3A00B528FD /* Person+Test.h */,
+				9C1EF22D23E95C3A00B528FD /* Person+Test.m */,
 				9C1EF1FA23E9582400B528FD /* Main.storyboard */,
 				9C1EF1FD23E9582500B528FD /* Assets.xcassets */,
 				9C1EF1FF23E9582500B528FD /* LaunchScreen.storyboard */,
@@ -269,8 +286,11 @@
 			files = (
 				9C1EF1F923E9582400B528FD /* ViewController.m in Sources */,
 				9C1EF1F323E9582400B528FD /* AppDelegate.m in Sources */,
+				9C1EF22823E95C1700B528FD /* Person.m in Sources */,
 				9C1EF20423E9582500B528FD /* main.m in Sources */,
 				9C1EF1F623E9582400B528FD /* SceneDelegate.m in Sources */,
+				9C1EF22E23E95C3A00B528FD /* Person+Test.m in Sources */,
+				9C1EF22B23E95C2C00B528FD /* Person+Eat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
